@@ -1,0 +1,24 @@
+{
+  "name": "mk-fn",
+  "version": "1.0.0",
+  "description": "Make functions with a specified length.",
+  "main": "index.js",
+	"script": {
+		"build": "node build.js > index.js",
+		"test": "node test.js"
+	},
+	"keywords": [
+		"function",
+		"length",
+		"arity",
+		"fp",
+		"hack",
+		"browser",
+		"server"
+	],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Jonathan Boudreau <jonathan.boudreau.92@gmail.com>",
+  "license": "MIT"
+}
