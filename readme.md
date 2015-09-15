@@ -6,7 +6,7 @@ to create remote functions which have the same length property on the server as 
 Here are some reasons why you would use this instead of other libraries.
 - [Performance](http://jsperf.com/functions-with-custom-length).
 - Security:  The alternative workaround is to use `eval`, which depending on what your security 
-is, might not be acceptable.
+policy is, might not be acceptable.
 - Flexibility: This module supports up to 27 arguments, more than you'll ever need.
 
 ```javascript
