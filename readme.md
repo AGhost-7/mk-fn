@@ -1,4 +1,4 @@
-## mk-fn
+## mk-fn ![build](https://travis-ci.org/AGhost-7/mk-fn.svg?branch=master)
 This module allows you to create a function with a given length property. This is used for certain
 functional programming facilities, and is used in [pogostic](https://github.com/AGhost-7/pogostick) to be able 
 to create remote functions which have the same length property on the server as the client.
