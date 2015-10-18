@@ -1,11 +1,24 @@
 {
 	"name": "mk-fn",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Make functions with a specified length.",
 	"main": "index.js",
 	"script": {
 		"build": "node build.js > index.js",
 		"test": "node test.js"
+	},
+	"contributors": [
+		{
+			"name": "Jonathan Boudreau",
+			"email": "jonathan.boudreau.92@gmail.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AGhost-7/mk-fn.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AGhost-7/mk-fn/issues"
 	},
 	"keywords": [
 		"function",
